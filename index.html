@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Page Coffe</title>
+    <title>Cafena</title>
   </head>
   <body>
     <header class="header">
@@ -27,7 +27,7 @@
           <a href="#addres">Endereço</a>
         </nav>
 
-        <div class="icons">
+        <div class="icons" aria-hidden="true">
           <img
             width="30"
             height="30"
@@ -44,247 +44,288 @@
       </section>
     </header>
 
-    <div class="home-container">
-      <section id="home">
-        <div class="content">
-          <h3>code com o melhor café da região</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            aliquam fugiat nesciunt? Sint id et ipsum nulla, nobis eos, eveniet
-            unde labore eaque illo deserunt optio doloribus perferendis laborum
-            ullam.
-          </p>
-          <a href="#" class="btn">Pegue o seu agora</a>
+    <main>
+      <div class="home-container">
+        <section id="home">
+          <div class="content">
+            <h1>Seu código merece um café especial.</h1>
+            <p>
+              Entre uma linha de código e outra, um bom café faz toda a
+              diferença. Na Cafena, cada xícara é preparada para transformar
+              suas pausas em momentos de sabor, inspiração e energia.
+            </p>
+            <a href="#menu" class="btn">Explore nosso cardápio</a>
+          </div>
+        </section>
+      </div>
+
+      <section class="about" id="about">
+        <h2 class="title">Sobre <span>Nós</span></h2>
+        <div class="row">
+          <div class="container-image">
+            <img src="./img/about-img.jpg" alt="Sobre Nós" />
+          </div>
+          <div class="content">
+            <h3>O Que Faz Nosso Café Especial</h3>
+            <p>
+              Na Cafena, acreditamos que um bom café pode transformar qualquer
+              pausa em um momento especial. Valorizamos o sabor, o aroma e o
+              cuidado em cada xícara, criando uma experiência que vai além do
+              café.
+            </p>
+            <p>
+              Seja para começar o dia, conversar com amigos ou encontrar
+              inspiração entre uma linha de código e outra, queremos tornar cada
+              momento mais acolhedor, saboroso e cheio de boas ideias.
+            </p>
+            <a href="#menu" class="btn">Saiba Mais</a>
+          </div>
         </div>
       </section>
-    </div>
 
-    <section class="about" id="about">
-      <h2 class="title">Sobre <span>Nós</span></h2>
-      <div class="row">
-        <div class="container-image">
-          <img src="./img/about-img.jpg" alt="Sobre Nós" />
-        </div>
-        <div class="content">
-          <h3>O Que Faz Nosso Café Especial</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            quasi voluptates sapiente, ullam nemo optio neque earum sunt
-            expedita accusamus maxime provident ducimus maiores ratione, qui, ad
-            quos officiis tempora!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            delectus necessitatibus dolor voluptas unde quas possimus culpa
-            corporis expedita molestias, laboriosam fuga sint? Laborum totam
-            adipisci aut quos, ducimus ullam!
-          </p>
-          <a href="#" class="btn">Saiba Mais</a>
-        </div>
-      </div>
-    </section>
+      <section class="menu" id="menu">
+        <h2 class="title">Nosso <span>Menu</span></h2>
 
-    <section class="menu" id="menu">
-      <h2 class="title">Nosso <span>Menu</span></h2>
+        <div class="box-container">
+          <div class="box">
+            <img src="./img/menu-1.png" alt="Item 1" />
+            <h3>Latte Clássico</h3>
+            <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+            <details class="product-details">
+              <summary class="btn">Ver detalhes</summary>
 
-      <div class="box-container">
-        <div class="box">
-          <img src="./img/menu-1.png" alt="Item 1" />
-          <h3>Café coado</h3>
-          <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-          <a href="#" class="btn">Adicione ao Carrinho</a>
-        </div>
+              <p>
+                Uma combinação clássica de café espresso e leite vaporizado,
+                perfeita para uma pausa especial.
+              </p>
+            </details>
+          </div>
 
-        <div class="box">
-          <img src="./img/menu-2.png" alt="Item 2" />
-          <h3>Café coado</h3>
-          <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-          <a href="#" class="btn">Adicione ao Carrinho</a>
-        </div>
+          <div class="box">
+            <img src="./img/menu-2.png" alt="Item 2" />
+            <h3>Cappuccino Cremoso</h3>
+            <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+            <details class="product-details">
+              <summary class="btn">Ver detalhes</summary>
+              <p>
+                Um cappuccino com espuma cremosa e sabor equilibrado, ideal para
+                quem aprecia um café suave e encorpado.
+              </p>
+            </details>
+          </div>
 
-        <div class="box">
-          <img src="./img/menu-3.png" alt="Item 3" />
-          <h3>Café coado</h3>
-          <div class="price">R$ 13,99 <span>R$ 18,99</span></div>
-          <a href="#" class="btn">Adicione ao Carrinho</a>
-        </div>
+          <div class="box">
+            <img src="./img/menu-3.png" alt="Item 3" />
+            <h3>Latte Art</h3>
+            <div class="price">R$ 13,99 <span>R$ 18,99</span></div>
+            <details class="product-details">
+              <summary class="btn">Ver detalhes</summary>
+              <p>
+                Café espresso combinado com leite vaporizado, finalizado com uma
+                delicada arte na espuma.
+              </p>
+            </details>
+          </div>
 
-        <div class="box">
-          <img src="./img/menu-4.png" alt="Item 4" />
-          <h3>Café coado</h3>
-          <div class="price">R$ 11,99 <span>R$ 12,99</span></div>
-          <a href="#" class="btn">Adicione ao Carrinho</a>
-        </div>
+          <div class="box">
+            <img src="./img/menu-4.png" alt="Item 4" />
+            <h3>Café com Leite</h3>
+            <div class="price">R$ 11,99 <span>R$ 12,99</span></div>
+            <details class="product-details">
+              <summary class="btn">Ver detalhes</summary>
+              <p>
+                A combinação tradicional de café e leite, perfeita para começar
+                o dia com simplicidade e muito sabor.
+              </p>
+            </details>
+          </div>
 
-        <div class="box">
-          <img src="./img/menu-5.png" alt="Item 5" />
-          <h3>Café coado</h3>
-          <div class="price">R$ 8,99 <span>R$ 13,99</span></div>
-          <a href="#" class="btn">Adicione ao Carrinho</a>
-        </div>
+          <div class="box">
+            <img src="./img/menu-5.png" alt="Item 5" />
+            <h3>Cappuccino da Casa</h3>
+            <div class="price">R$ 8,99 <span>R$ 13,99</span></div>
+            <details class="product-details">
+              <summary class="btn">Ver detalhes</summary>
+              <p>
+                Uma receita especial da Cafena, com café intenso, leite cremoso
+                e uma finalização que torna cada gole especial.
+              </p>
+            </details>
+          </div>
 
-        <div class="box">
-          <img src="./img/menu-6.png" alt="Item 6" />
-          <h3>Café coado</h3>
-          <div class="price">R$ 11,20 <span>R$ 15,99</span></div>
-          <a href="#" class="btn">Adicione ao Carrinho</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="review" id="review">
-      <h2 class="title">Nossos <span>Clientes</span></h2>
-
-      <div class="box-container">
-        <div class="box">
-          <img src="./img/quote-img.png" alt="Comentario" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus fugiat accusantium, tempora aspernatur voluptates dolor
-            sunt quasi culpa quidem in eum voluptatem quisquam laborum magni
-            saepe officia assumenda nam quod.
-          </p>
-          <img src="./img/pic-1.png" alt="foto-cliente" class="user" />
-          <h3>Alexandre</h3>
-          <div class="stars">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
-              alt="star-half-empty"
-            />
+          <div class="box">
+            <img src="./img/menu-6.png" alt="Item 6" />
+            <h3>Latte Especial</h3>
+            <div class="price">R$ 11,20 <span>R$ 15,99</span></div>
+            <details class="product-details">
+              <summary class="btn">Ver detalhes</summary>
+              <p>
+                Um latte delicado e aromático, com a combinação ideal entre
+                espresso e leite para uma pausa aconchegante.
+              </p>
+            </details>
           </div>
         </div>
-        <div class="box">
-          <img src="./img/quote-img.png" alt="Comentario" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus fugiat accusantium, tempora aspernatur voluptates dolor
-            sunt quasi culpa quidem in eum voluptatem quisquam laborum magni
-            saepe officia assumenda nam quod.
-          </p>
-          <img src="./img/pic-2.png" alt="foto-cliente" class="user" />
-          <h3>Thalita</h3>
-          <div class="stars">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
-              alt="star-half-empty"
-            />
+      </section>
+
+      <section class="review" id="review">
+        <h2 class="title">Nossos <span>Clientes</span></h2>
+        <p class="review-note">
+          Avaliações fictícias criadas para demonstrar o layout do projeto.
+        </p>
+
+        <div class="box-container">
+          <div class="box">
+            <img src="./img/quote-img.png" alt="Comentario" />
+            <p>
+              Um ambiente acolhedor, café preparado com cuidado e uma
+              experiência perfeita para fazer uma pausa durante o dia. Um lugar
+              para apreciar cada xícara.
+            </p>
+            <img src="./img/pic-1.png" alt="" class="user" />
+            <h3>Alexandre</h3>
+            <div class="stars">
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+                alt="star-half-empty"
+              />
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/quote-img.png" alt="Comentario" />
+            <p>
+              A combinação de aromas, sabores e um atendimento atencioso torna
+              cada visita especial. Uma ótima opção para quem gosta de café e
+              tranquilidade.
+            </p>
+            <img src="./img/pic-2.png" alt="" class="user" />
+            <h3>Thalita</h3>
+            <div class="stars">
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+                alt="star-half-empty"
+              />
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/quote-img.png" alt="Comentario" />
+            <p>
+              O espaço ideal para relaxar, conversar e encontrar inspiração. Um
+              bom café pode transformar até mesmo os dias mais corridos.
+            </p>
+            <img src="./img/pic-3.png" alt="" class="user" />
+            <h3>Júlio César</h3>
+            <div class="stars">
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                alt="star--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+                alt="star-half-empty"
+              />
+            </div>
           </div>
         </div>
-        <div class="box">
-          <img src="./img/quote-img.png" alt="Comentario" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus fugiat accusantium, tempora aspernatur voluptates dolor
-            sunt quasi culpa quidem in eum voluptatem quisquam laborum magni
-            saepe officia assumenda nam quod.
-          </p>
-          <img src="./img/pic-3.png" alt="foto-cliente" class="user" />
-          <h3>Júlio César</h3>
-          <div class="stars">
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
-              alt="star--v1"
-            />
-            <img
-              width="30"
-              height="30"
-              src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
-              alt="star-half-empty"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="addres" id="addres">
-      <h2 class="title">Nosso <span>Endereço</span></h2>
+      <section class="addres" id="addres">
+        <h2 class="title">Nosso <span>Endereço</span></h2>
 
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58524.60717279468!2d-46.642630251367194!3d-23.540128099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5fb1aaed7eb5%3A0xd5c03c54f91108e3!2sPrime%20Coffee!5e0!3m2!1spt-BR!2sbr!4v1792654415729!5m2!1spt-BR!2sbr"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="strict-origin-when-cross-origin"
-      ></iframe>
-    </section>
-
-    <section class="footer">
-      <div class="share">
+        <iframe
+          title="Mapa ilustrativo da cidade de São Paulo"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233844.6035474672!2d-46.76010442910924!3d-23.682325213525534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1793212880821!5m2!1spt-BR!2sbr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+        <p class="map-note">
+          Localização ilustrativa em São Paulo. A Cafena é um projeto fictício e
+          não possui endereço físico de atendimento.
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="share" aria-hidden="true">
         <img
           width="30"
           height="30"
           src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"
-          alt="instagram-new"
+          alt=""
         />
         <img
           width="30"
           height="30"
           src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook-new.png"
-          alt="facebook-new"
+          alt=""
         />
         <img
           width="30"
           height="30"
           src="https://img.icons8.com/ios-filled/30/ffffff/twitter-squared.png"
-          alt="twitter-squared"
+          alt=""
         />
       </div>
-    </section>
+      <p class="footer-note">Cafena - Projeto demonstrativo de Front-End.</p>
+    </footer>
   </body>
 </html>
